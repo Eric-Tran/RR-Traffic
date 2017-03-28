@@ -1,0 +1,48 @@
+.traffic {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: grey;
+}
+
+.traffic__light {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 15px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+  opacity: 0.5;
+}
+
+.traffic__light--red {
+  background-color: red;
+}
+
+.traffic__light--yellow {
+  background-color: yellow;
+}
+
+.traffic__light--green {
+  background-color: lightgreen;
+}
+
+.traffic__light--lit {
+  opacity: 1;
+}
+
+.clicker {
+  display: block;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.clicker:hover {
+  background-color: lightgrey;
+}
+
+.clicker:active {
+  background-color: grey;
+}
